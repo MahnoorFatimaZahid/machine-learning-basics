@@ -20,15 +20,36 @@ recognition, fraud detection, or recommendation systems.
     layers.
 
 ------------------------------------------------------------------------
-
 ## 3. Types of ML
 
--   **Supervised Learning** → Uses labeled data (classification,
-    regression).
--   **Unsupervised Learning** → Finds hidden patterns in unlabeled data
-    (clustering, dimensionality reduction).
--   **Reinforcement Learning** → Learns through trial and error using
-    rewards and penalties.
+- **Supervised Learning** → The data has both input and output (answers are known).  
+  Example: Predicting house prices from size and location.  
+
+- **Unsupervised Learning** → The data has only input (no answers). The goal is to find patterns.  
+  Example: Grouping customers by buying habits.  
+
+- **Reinforcement Learning** → A computer program (agent) learns by trial and error.  
+  It gets rewards for good actions and penalties for bad ones.  
+  Example: Training a robot to walk.  
+
+### Semi-Supervised Learning
+A mix of labeled and unlabeled data.  
+Example: Having a small amount of medical images with labels (disease type) and a large set without labels.  
+
+### More Types of Unsupervised Learning
+- **Clustering** → Grouping similar data points together.  
+  Example: Grouping news articles by topic.  
+
+- **Dimensionality Reduction** → Making data smaller by reducing features but keeping important information.  
+  Example: Compressing image data while keeping quality.  
+
+- **Anomaly Detection** → Finding unusual or rare data points.  
+  Example: Detecting credit card fraud.  
+
+- **Association Rule Learning** → Finding relationships between items.  
+  Example: People who buy bread often buy butter.  
+
+
 
 ------------------------------------------------------------------------
 
@@ -95,6 +116,13 @@ recognition, fraud detection, or recommendation systems.
 Tensors are multi-dimensional arrays used in deep learning frameworks
 like TensorFlow and PyTorch.
 
+-   0D: Scalar → 2
+-   1D: Vector → [1,2,3]
+-   2D: Matrix → [[1,8],[2,4]]
+-   3D: RGB image → (H, W, C)
+-   4D: Batch of images → (N, H, W, C)
+-   5D: Video → (N, T, H, W, C)
+
 ------------------------------------------------------------------------
 
 ## 11. End-to-End Example (Overview)
@@ -133,10 +161,11 @@ Check missing values, duplicates, data types, and distributions.
 
 ## 15. Exploratory Data Analysis (EDA)
 
--   **Univariate Analysis:** Single variable (histograms, bar plots).\
--   **Bivariate Analysis:** Two variables (scatter plots, correlation).\
+-   **Univariate Analysis:** Single variable (histograms, bar plots).
+-   **Bivariate Analysis:** Two variables (scatter plots, correlation).
 -   **Multivariate Analysis:** Multiple variables (pair plots,
-    heatmaps).\
+    heatmaps).
 -   **Pandas Profiling:** Automated EDA report.
 
 ------------------------------------------------------------------------
+

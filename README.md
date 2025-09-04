@@ -34,7 +34,7 @@ recognition, fraud detection, or recommendation systems.
 
 ## 4. Batch Learning vs Online Learning
 
--   **Batch Learning:** Model is trained on the entire dataset at once.\
+-   **Batch Learning:** Model is trained on the entire dataset at once.
 -   **Online Learning:** Model learns continuously as new data arrives.
 
 ------------------------------------------------------------------------
@@ -42,7 +42,7 @@ recognition, fraud detection, or recommendation systems.
 ## 5. Instance-Based vs Model-Based Learning
 
 -   **Instance-Based:** Memorizes examples and compares new cases (e.g.,
-    KNN).\
+    KNN).
 -   **Model-Based:** Builds a general model to make predictions (e.g.,
     linear regression).
 
